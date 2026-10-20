@@ -6,6 +6,8 @@ A public showcase of a local-first controller for evidence-based software assura
 
 **[Explore the showcase](https://tbg-chance.github.io/PZ-AI-Sentinel-showcase/)** · [Capabilities & boundaries](docs/STATUS.md) · [Research status](docs/RESEARCH.md) · [Demo contract](docs/DEMONSTRATION.md)
 
+![Public showcase preview: muted-green Sentinel instrument and evidence-first introduction](assets/showcase-preview.png)
+
 Sentinel treats a model answer as a proposal. Explicit controller checks determine whether the evidence supports releasing an attributed finding explanation. Operators can inspect sources, relationships, missing evidence and retained session history.
 
 This repository contains an original public presentation and a browser-only illustration using invented records. It does not distribute the application engine, private lab records, credentials, model weights or operational configuration.
