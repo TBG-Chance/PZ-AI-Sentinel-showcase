@@ -1,7 +1,5 @@
 name: Publish public showcase
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read

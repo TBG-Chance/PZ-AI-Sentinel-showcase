@@ -62,7 +62,9 @@ node --test tests/showcase.test.cjs
 
 ## GitHub Pages
 
-The included workflow publishes the static showcase from `main`. Repository administrators must select **GitHub Actions** under **Settings → Pages → Build and deployment → Source** if Pages has not already been enabled. The workflow runs artifact checks before deployment. The project can also be served by any static web host.
+The repository is configured for standard branch publishing: **Settings → Pages → Build and deployment → Deploy from a branch → main → / (root)**. Hosting availability depends on GitHub's account and deployment status. The project can also be served by any static web host.
+
+An optional manually triggered Actions workflow is included. To use it instead, select **GitHub Actions** as the Pages source, then run **Publish public showcase** from the Actions tab. That workflow runs artifact checks before deployment.
 
 ## Repository guide
 
