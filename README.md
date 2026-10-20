@@ -20,16 +20,9 @@ The illustration performs no security assessment, runs no model and connects to 
 
 ## How the application works
 
-```mermaid
-flowchart LR
-  P[Pr0jectZer0 inventory and findings] --> M[MDF preservation]
-  M --> R[Scoped raw-evidence retrieval]
-  R --> I[Original bytes and exact mappings]
-  I --> G[Endpoint / product / version / time / finding gate]
-  L[Optional local-model proposal] --> G
-  G --> S[Persisted release or withholding decision]
-  S --> T[Tactical Bridge inspection and restart reverification]
-```
+![Evidence path: Pr0jectZer0 inventory and findings flow through MDF preservation, scoped retrieval, byte and mapping verification, and the relationship gate. An optional local-model proposal enters the gate. Release or withholding decisions are persisted for Tactical Bridge inspection and restart reverification.](assets/evidence-path.svg)
+
+The evidence path is **Pr0jectZer0 → MDF → scoped retrieval → integrity checks → relationship gate → saved decision → Tactical Bridge**. Optional local-model proposals enter the relationship gate and remain subject to its checks.
 
 - **Integrity:** retrieve bounded original bytes and verify recorded hashes and exact mapping history within authorized scope.
 - **Relationship:** reconcile endpoint, product, version, observation time and the specific finding before release.

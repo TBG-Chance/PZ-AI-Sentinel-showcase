@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
+  <title id="title">PZ-AI Sentinel evidence control path</title>
+  <desc id="desc">Pr0jectZer0 inventory and findings pass through MDF preservation, scoped raw retrieval, original-byte and mapping checks, and a relationship gate. Optional local-model proposals also enter the gate. Decisions are persisted for Tactical Bridge inspection and restart reverification.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#a4c6a7"/></marker></defs>
+  <rect width="1040" height="560" rx="12" fill="#101a16"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#e6e9df">
+    <text x="40" y="43" font-size="13" letter-spacing="3" fill="#a4c6a7">PZ-AI SENTINEL / EVIDENCE CONTROL PATH</text>
+    <text x="40" y="78" font-size="24">Evidence before explanation.</text>
+    <g fill="#17271c" stroke="#617d60">
+      <rect x="40" y="115" width="285" height="88" rx="5"/>
+      <rect x="378" y="115" width="285" height="88" rx="5"/>
+      <rect x="715" y="115" width="285" height="88" rx="5"/>
+      <rect x="715" y="259" width="285" height="88" rx="5"/>
+      <rect x="378" y="259" width="285" height="88" rx="5" stroke="#e2b466"/>
+      <rect x="40" y="259" width="285" height="88" rx="5" stroke="#e2b466" stroke-dasharray="6 5"/>
+      <rect x="378" y="405" width="285" height="88" rx="5"/>
+      <rect x="715" y="405" width="285" height="88" rx="5"/>
+    </g>
+    <g fill="none" stroke="#a4c6a7" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M325 159H367"/><path d="M663 159H704"/><path d="M858 203V248"/>
+      <path d="M715 303H674"/><path d="M325 303H367" stroke-dasharray="5 4"/>
+      <path d="M520 347V394"/><path d="M663 449H704"/>
+    </g>
+    <g font-size="18" text-anchor="middle">
+      <text x="182" y="151">Pr0jectZer0</text><text x="182" y="178" font-size="14" fill="#b5c6ae">Inventory and findings</text>
+      <text x="520" y="151">MDF preservation</text><text x="520" y="178" font-size="14" fill="#b5c6ae">Records and mapping history</text>
+      <text x="858" y="151">Scoped raw retrieval</text><text x="858" y="178" font-size="14" fill="#b5c6ae">Authorized source and tenant</text>
+      <text x="858" y="295">Integrity checks</text><text x="858" y="322" font-size="14" fill="#b5c6ae">Original bytes and exact mappings</text>
+      <text x="520" y="290" fill="#e2b466">Relationship gate</text><text x="520" y="313" font-size="13" fill="#b5c6ae">Endpoint / product / version</text><text x="520" y="332" font-size="13" fill="#b5c6ae">Observation time / specific finding</text>
+      <text x="182" y="295" fill="#e2b466">Local-model proposal</text><text x="182" y="322" font-size="14" fill="#b5c6ae">Optional; subject to the gate</text>
+      <text x="520" y="441">Persisted decision</text><text x="520" y="468" font-size="14" fill="#b5c6ae">Release or withhold + audit record</text>
+      <text x="858" y="441">Tactical Bridge</text><text x="858" y="468" font-size="14" fill="#b5c6ae">Inspect and reverify after restart</text>
+    </g>
+    <text x="40" y="531" font-size="12" fill="#a4c6a7" letter-spacing="1">ARCHITECTURE OVERVIEW / NO LIVE ENDPOINT DATA</text>
+  </g>
+</svg>
